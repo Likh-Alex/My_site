@@ -9,32 +9,50 @@ div {
 }
 
 h1 {
-  margin-top: 50;
+  margin: 50px auto 0 auto;
   font-family: 'Dancing Script', cursive;
   font-size: 100px;
+  color: #66BFBF;
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 3rem;
   font-family: 'Montserrat', sans-serif;
-
+  color: #66BFBF;
+  line-height: 2;
+  margin-top: 60px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 50px;
+  border-width: 5px;
+  border-color: grey;
 }
 
 .top_container {
-  background-color: #cffffe;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 90px;
 }
 
 .middle_container {
-
+  margin-top: 30px;
 }
 
-.bottom_container {
+.bottom-container {
+  background-color: #66BFBF;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .top_cloud {
@@ -46,12 +64,97 @@ h3 {
 .bottom_cloud {
   position: absolute;
   left: 350px;
-  bottom: 320px;
-}
-.mountain{
-  padding-top: 30px;
+  bottom: 270px;
 }
 
-#my_pic{
-margin-top: 100px;
+.mountain {
+  padding-top: 30px;
+  height: 370px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.what_i_can_do {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.tools {
+  width: 25%;
+  float: right;
+  margin-right: 50px;
+}
+
+.btn {
+  color: #11999E;
+}
+
+.greeting {
+  width: 30%;
+  margin: 50px auto 100px auto;
+  color: #40514E;
+}
+
+.footer-link {
+  padding: 20px;
+  color: #11999E;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
+
+.BUTTON_QCL {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  color: #FFFFFF;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 14px;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.BUTTON_QCL:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
+
+#my_pic {
+  margin-top: 100px;
+}
+
+#named_title {
+  font-size: 30px;
+  margin-bottom: 0px;
 }
